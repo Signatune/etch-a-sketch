@@ -14,5 +14,11 @@ for (let row = 0; row < gridSize; row++) {
     cell.addEventListener("click", (event) => {
       cell.classList.add("filled");
     });
+
+    cell.addEventListener("mouseenter", (event) => {
+      if (event.buttons === 1) {
+        cell.classList.add("filled");
+      }
+    });
   }
 }
