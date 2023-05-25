@@ -1,6 +1,6 @@
 let sketchBoard = document.querySelector(".sketch-board");
 
-let gridSize = 25;
+let gridSize = 50;
 
 for (let row = 0; row < gridSize; row++) {
   let row = document.createElement("div");
