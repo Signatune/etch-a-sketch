@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cell {
+  flex: 1 1 0;
+  aspect-ratio: 1 / 1;
+  background: grey;
+}
+
+.cell:hover {
+  background: darkgray;
+}
+
+.filled {
+  background: black;
+}
+
+.filled:hover {
+  background: black;
+}
+
+.sketch-board {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  width: 700px;
+  gap: 1px;
+}
+
+.board-row {
+  flex: 1 1 auto;
+  display: flex;
+  gap: 1px;
+}
